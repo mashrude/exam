@@ -10,10 +10,11 @@ package status;
  * @author srinivsi
  */
 public class StausUser 
+{  
+    
+   public void statusDetail(EnumVal code)
 {
-   public void statusDetail(String code)
-{
-switch(code.toUpperCase())
+switch(code)
         {
         case "ZERO": System.out.println("REJECTED");
         break;
